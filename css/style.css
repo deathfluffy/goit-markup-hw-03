@@ -274,6 +274,9 @@ font-style: normal;
     height: 140px;
     
 }
+img{
+    display: block;
+}
 .all{
     display: flex;
     padding: 12px 24px;
