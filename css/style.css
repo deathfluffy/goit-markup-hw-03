@@ -204,14 +204,19 @@ span {
     background-color: #404BBF;
 
 }
-
+.bap{
+    display: flex;
+    justify-content: center;
+}
 .list {
-
+  
+    
     list-style: none;
 
 
 
 }
+
 
 .list li {
     display: inline-block;
@@ -310,9 +315,9 @@ img {
 }
 
 .all {
-    display: flex;
+   
     padding: 12px 24px;
-    align-items: flex-start;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -485,10 +490,10 @@ img {
 }
 
 .dtu {
-
+    
     display: flex;
     flex-direction: column;
-    margin: 20px 40px;
+    margin: 20px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
