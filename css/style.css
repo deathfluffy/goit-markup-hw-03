@@ -211,7 +211,8 @@ span {
 }
 .list {
   
-    
+    padding-top: 96px;
+    padding-bottom: 120px;
     list-style: none;
 
 
