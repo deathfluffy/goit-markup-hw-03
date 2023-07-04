@@ -95,7 +95,7 @@ header {
 }
 
 
-.ffe {
+.ffe > .link{
     display: inline-block;
     margin-bottom: 16px;
     color: var(--ocean, #4d5ae5);
