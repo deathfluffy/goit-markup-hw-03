@@ -114,10 +114,12 @@ header {
 .jey {
     border-bottom: 1px solid #e7e9fc;
 }
-
+.stu .fer{
+  margin-right: 76px;
+}
 .stu {
   
-    margin-right: 76px;
+    
 
     color: var(--stu-color, #2e2f42);
 
@@ -216,9 +218,9 @@ span {
 
 }
 .list {
-  
-    padding-top: 96px;
-    padding-bottom: 120px;
+    display: flex;
+    gap: 40px;
+
     list-style: none;
 
 
