@@ -79,10 +79,6 @@ header {
 }
 .fer {
     margin-right: 76px;
-
-
-  
-
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -95,7 +91,7 @@ header {
 }
 
 
-.ffe > .link{
+.ffe {
     display: inline-block;
     margin-bottom: 16px;
     color: var(--ocean, #4d5ae5);
