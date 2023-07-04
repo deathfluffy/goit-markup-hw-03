@@ -613,9 +613,6 @@ h3 {
     
 }
 
-.row{
-width: calc((100% - 48px) / 3);
-}
 .row-lat{
-
+width: calc((100% - 48px) / 3);
 }
