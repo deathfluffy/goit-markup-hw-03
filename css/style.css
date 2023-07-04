@@ -603,6 +603,10 @@ h3 {
 }
 
 .bap {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
