@@ -557,7 +557,9 @@ img {
 .dtu:focus {
     color: #404bbf;
 }
-
+.tau{
+    padding-bottom: 120px;
+}
 .sec {
     padding: 120px 0;
     background-color: #F4F4FD;
