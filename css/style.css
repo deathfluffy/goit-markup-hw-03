@@ -175,6 +175,7 @@ span {
 }
 
 .ron {
+    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
 }
@@ -185,6 +186,7 @@ span {
 }
 
 .pap {
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -214,11 +216,8 @@ span {
 }
 
 .bap{
-    margin-bottom: 72px;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-right: 24px;
+    text-align: center;
+    margin-bottom: 8px;
 
 }
 .list {
@@ -625,4 +624,14 @@ h3 {
 .row{
     width: calc((100% - 48px) / 3);
     
+}
+.may{
+         display: flex;
+         gap: 24px;
+      
+       
+        list-style: none;
+}
+.paq{
+    padding: 32px 16px;
 }
