@@ -91,7 +91,9 @@ header {
     display: flex;
 
 }
-
+a{
+display: inline-block;
+}
 .ffe {
     display: inline-block;
     margin-bottom: 16px;
