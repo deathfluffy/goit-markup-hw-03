@@ -243,7 +243,9 @@ span {
     padding: 0px 20px;
     margin-right: 0;
 }
-
+.dtu .link{
+    padding: 24px 0;
+}
 .link:hover {
     color: #404bbf;
 }
