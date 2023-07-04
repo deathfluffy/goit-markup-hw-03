@@ -91,11 +91,10 @@ header {
     display: flex;
 
 }
-.ffe .log{
-    display: inline-block;
-}
+
+
 .ffe {
-    display: inline-block;
+    
     margin-bottom: 16px;
     color: var(--ocean, #4d5ae5);
     font-family: 'Raleway', sans-serif;
