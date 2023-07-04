@@ -446,7 +446,7 @@ img {
     background-color: #404BBF;
 }
 
-.ban {
+.ban h2{
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -614,5 +614,5 @@ h3 {
 }
 
 .row{
-width: calc((100% - 48px) / 3);
+ width: calc((100% - 48px) / 3);
 }
