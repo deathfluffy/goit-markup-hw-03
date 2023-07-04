@@ -93,6 +93,8 @@ header {
 }
 
 .ffe {
+    display: inline-block;
+    margin-bottom: 16px;
     color: var(--ocean, #4d5ae5);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -162,10 +164,9 @@ span {
 }
 
 .inc {
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    flex-shrink: 0;
+   
+ 
+    max-width: 264px;
     line-height: 1.5;
     color: var(--original-title);
     letter-spacing: 0.02em;
@@ -277,7 +278,8 @@ span {
 
 .log {
 
-
+    display: inline-block;
+    margin-bottom: 16px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -325,9 +327,9 @@ span {
 }
 
 .foo {
+
     background-color: var(--footer-bg-color);
-    width: 1900px;
-    height: 140px;
+    padding: 100px 0;
 
 }
 
@@ -615,4 +617,5 @@ h3 {
 
 .row{
     width: calc((100% - 48px) / 3);
+    
 }
