@@ -96,7 +96,7 @@ header {
 
 
 .ffe {
-   
+    display: inline-block;
     margin-bottom: 16px;
     color: var(--ocean, #4d5ae5);
     font-family: 'Raleway', sans-serif;
@@ -180,6 +180,7 @@ span {
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
+
 }
 
 .baj {
@@ -288,7 +289,7 @@ span {
 .log {
 
     display: inline-block;
-    margin-bottom: 16px;
+    
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -637,10 +638,8 @@ h3 {
     border-top: none;
     
 }
-
-.row{
-flex-basis: calc((100% - 3 * 16px) / 3);
-    
+.row {
+    flex: 0 0 calc((100% - 3 * 16px) / 3);
 }
 .may{
          display: flex;
