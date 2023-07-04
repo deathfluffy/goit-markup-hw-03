@@ -175,10 +175,12 @@ span {
 }
 
 .ron {
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
 }
 
 .baj {
+
     background-color: var(--section-bg-color, #2e2f42);
 }
 
@@ -555,6 +557,7 @@ img {
 }
 
 .sec {
+    padding: 120px 0;
     background-color: #F4F4FD;
 
 }
@@ -564,6 +567,7 @@ img {
 }
 
 .bah {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
