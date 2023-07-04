@@ -94,7 +94,7 @@ header {
 
 
 .ffe {
-    
+    display: inline-block;
     margin-bottom: 16px;
     color: var(--ocean, #4d5ae5);
     font-family: 'Raleway', sans-serif;
@@ -279,7 +279,7 @@ span {
 
 .log {
 
-    display: inline-block;
+ 
     margin-bottom: 16px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
