@@ -42,7 +42,9 @@ body {
     background-color: var(--background-body);
     font-size: 16px;
 }
-
+.nao{
+    padding: 120px 0;
+}
 .link {
 
     text-decoration: none;
@@ -181,7 +183,7 @@ span {
 }
 
 .baj {
-
+    padding: 188px 0;
     background-color: var(--section-bg-color, #2e2f42);
 }
 .bam{
@@ -535,7 +537,12 @@ img {
 }
 
 .ann {
-    background-color: #4D5AE5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--custom-color #4D5AE5);
+    border-radius: 4px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -597,6 +604,7 @@ h3 {
 }
 
 .eff {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
