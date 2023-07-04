@@ -238,7 +238,7 @@ span {
         border: 0;
 }
 
-.list li {
+.list {
     display: inline-block;
     padding: 0px 20px;
     margin-right: 0;
@@ -613,6 +613,6 @@ h3 {
     
 }
 
-.row-lat{
-
+.row{
+width: calc((100% - 48px) / 3);
 }
