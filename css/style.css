@@ -203,10 +203,7 @@ span {
     letter-spacing: 0.02em;
 
 }
-.tai{
-    padding-top: 96px;
-    padding-bottom: 120px;
-}
+
 .ron {
     
     list-style: none;
@@ -628,7 +625,9 @@ img {
     color: #404bbf;
 }
 .tau{
+    padding-top: 96px;
     padding-bottom: 120px;
+
 }
 .sec {
     padding: 120px 0;
