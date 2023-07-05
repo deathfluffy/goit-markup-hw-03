@@ -164,7 +164,7 @@ span {
 
 .inc {
    
- 
+    
     max-width: 264px;
     line-height: 1.5;
     color: var(--original-title);
@@ -174,7 +174,8 @@ span {
 
 .ron {
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+flex: 0 0 calc((100% - 72px) / 4);
+
     background-color: #FFFFFF;
 
 }
@@ -246,7 +247,7 @@ span {
 }
 
 .list li {
-    display: inline-block;
+   
     padding: 0px 20px;
     margin-right: 0;
 }
@@ -534,6 +535,7 @@ img {
 }
 
 .ann {
+   
     display: block;
     min-width: 169px;
     height: 56px;
@@ -575,6 +577,7 @@ img {
 }
 
 .bah {
+    
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
@@ -636,12 +639,14 @@ h3 {
     
 }
 .row {
-    flex: 0 0 calc((100% - 3 * 16px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 .may{
          display: flex;
          gap: 24px;
-      
+        
+            
+         
        
         list-style: none;
 }
