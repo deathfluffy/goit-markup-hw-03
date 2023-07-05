@@ -144,6 +144,7 @@ header {
 
 }
 .bat{
+            padding: 24px 0;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -202,7 +203,10 @@ span {
     letter-spacing: 0.02em;
 
 }
-
+.tai{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .ron {
     
     list-style: none;
